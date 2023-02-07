@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.column {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+#navBar {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    width: 750px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#navHeading p {
+    margin-left: 15px;
+}
+
+.blueUnderline {
+    color: rgb(13, 107, 231);
+    text-decoration: underline;
+}
+
+#feed {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+span {
+    color: rgb(0, 132, 255);
+    text-decoration: underline;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+
+#mainCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 125px;
+    height: 190px;
+}
+
+img {
+    width: 75px;
+    height: auto;
+}
+
+#mainCard ul li {
+    margin: 20px 0px;
+}
+
+.userCard {
+    border: 2px solid black;
+    padding: 15px;
+    height: 80px;
+    width: 300px;
+    margin: 0px 0px 10px 0px;
+}
+
+.userCard ul{
+    display: flex;
+    align-items: center;
+}
+    
+.userCard ul li{
+    display: flex;
+    margin: 0px 15px 0px 0px;
+}
+
+
+.topCard {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(255, 230, 0);
+    height: 25px;
+    width: 45px;
+    box-shadow: 3px 3px black;
+    border: 2px solid black;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bold;
+}

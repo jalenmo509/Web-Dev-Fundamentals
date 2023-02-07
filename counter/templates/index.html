@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <h1>Counter</h1>
+    <p>{{ session['count'] }}</p>
+    <a href="/">Increment</a>
+    <a href="/double_count">Double Increment</a>
+    <a href="/destroy_session">Reset</a>
+    <h3>Counter Form</h3>
+    <form action='custom_count' method='post'>
+        <label for='count'>
+            Enter the added number count
+        </label>
+        <input type="text" name='count'>
+        <input type="submit" value="Increment">
+    </form>
+</body>
+
+</html>

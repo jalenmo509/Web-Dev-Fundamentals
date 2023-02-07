@@ -1,0 +1,44 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    align-content: center;
+}
+
+.center {
+    text-align: center;
+}
+
+#dojo {
+
+    margin: 5px;
+    padding: 5px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#dojo2 {
+    margin: 5px;
+    padding: 5px;
+    background-color: darkseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#dojo3 {
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+img {
+    height: 200px;
+}

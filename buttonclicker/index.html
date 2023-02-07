@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="main-body">
+        <div id="topnav">
+            <div id="navbar">
+                <h1>Dojonary</h1>
+                <input id="searchbar" type="text" placeholder="Search">
+                <button id="button" onclick="signIn(this)">Login</button>
+            </div>
+        </div>
+        <section class="column">
+            <div class="ninja-box">
+                <ul>
+                    <li>ninja</li>
+                    <li>noun</li>
+                    <li>Plural: <span>ninjas</span> </li>
+                    <li><button onclick="moreLikes(this)">0 likes</button></li>
+                </ul>
+
+                <div class="side-info">
+                    <p>A practioner skilled in the
+                        <span class="underline">Japanese</span>
+                        art of
+                        <span class="underline">ninjutsu</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="ninja-box">
+                <ul>
+                    <li>ninja</li>
+                    <li>noun</li>
+                    <li>Plural: <span id="ninja">ninjas</span> </li>
+                    <li><button onclick="differentLikes(this)">0 likes</button></li>
+                </ul>
+
+                <div class="side-info">
+                    <p>A <span class="underline">programmer</span>
+                        who breaks down problems with
+                        <span class="underline">zen</span>-like focus
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div id="small-box">
+            <p>Dojonary is defined by <span id="you">YOU</span></p>
+            <button id="remove" onclick="remove(this)">Add Definition</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>
